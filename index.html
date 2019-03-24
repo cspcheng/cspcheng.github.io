@@ -132,7 +132,9 @@
 				&bull; <a target="_blank" href="https://scholar.google.com/citations?user=rfuMoPUAAAAJ" title="List of my publications on Google Scholar"><span class="icon fa-google"></span> Google Scholar</a>
 				&bull; <a  target="_blank"href="https://www.researchgate.net/profile/Peng_Cheng32"><i class="icon fa-user-circle"></i> ResearchGate</a>
 			</p>
-		</header>			
+		</header>	
+		
+		<div class="publication_list"></div>
 		<!-- <h3>International peer-reviewed journals</h3>
             <center>(not yet)</center> -->
 		<!-- <ol reversed="reversed">
@@ -312,6 +314,15 @@
 	</script>
 
 
+<script type="text/javascript">
+ 
+	$(document).ready(function () {
+
+		$('.publication_list').load('publications.html');
+
+	});
+
+</script>
 	
 </body>
 </html>
