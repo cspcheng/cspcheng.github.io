@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-python bibble.py pubs.bib publications.tmpl > ../publications.html
+python3 bibble.py pubs.bib publications.tmpl > ../publications.html
