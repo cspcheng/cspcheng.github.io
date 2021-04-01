@@ -11,18 +11,18 @@ _months = {
 }
 
 def _author_fmt(author):
-    return u' '.join(author.first() + author.middle() + author.last())
+    return u' '.join(author.first_names + author.middle_names + author.last_names)
 
 def _andlist(ss, sep=', ', seplast=', and ', septwo=' and '):
-    if len(ss) <= 1:
+    if len(ss) <= 1:  
         return ''.join(ss)
-    elif len(ss) == 2:
+    elif len(ss)  == 2:
         return septwo.join(ss)
     else:
-        return sep.join(ss[:-1]) + seplast + ss[-1]
+        return sep.join(ss[0:-1]) + seplast + ss[-1]
 
 def _author_list(authors):
-    return _andlist(map(_author_fmt, authors))
+    return _andlist(list(map(_author_fmt, authors)))
 
 def _venue_type(entry):
     venuetype = ''
@@ -87,7 +87,7 @@ def _extra_urls(entry):
           ... }
     """
     urls = {}
-    for k, v in entry.fields.iteritems():
+    for k, v in entry.fields.items():
         k = k.lower()
         if not k.endswith('_url'):
             continue
@@ -142,7 +142,7 @@ def main(bibfile, template):
     # Render the template.
     bib_sorted = sorted(db.entries.values(), key=_sortkey, reverse=True)
     out = tmpl.render(entries=bib_sorted)
-    print out
+    print(out)
 
 if __name__ == '__main__':
     main(*sys.argv[1:])
