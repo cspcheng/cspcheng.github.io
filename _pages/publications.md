@@ -26,7 +26,7 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
  
 	$(document).ready(function () {
 
-		$('.publication_list').load('my_publications.html');
+		$('.publication_list').load('https://cspcheng.github.io/my_publications.html');
 
 	});
 
