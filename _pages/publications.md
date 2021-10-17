@@ -15,7 +15,7 @@ You can find my publications on the following systems.
 
 
 
-You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection).
+You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection). Here is an [interactive publication list](https://bibbase.org/show?bib=https://cspcheng.github.io/files/peng-publications.bib&theme=bullets&authorFirst=1) built by [BIBBASE](https://bibbase.org/).
 
 
 {% include my_publications.html %}
