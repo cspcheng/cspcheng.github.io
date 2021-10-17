@@ -19,7 +19,6 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
 
 
 
-<!-- <script src="https://bibbase.org/show?bib=https://cspcheng.github.io/files/peng-publications.bib&jsonp=1&nocache=1&theme=simple&authorFirst=1&hidemenu=true"></script> -->
 
 <div class="publication_list"></div>
 
@@ -27,7 +26,7 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
  
 	$(document).ready(function () {
 
-		$('.publication_list').load('publications.html');
+		$('.publication_list').load('my_publications.html');
 
 	});
 
