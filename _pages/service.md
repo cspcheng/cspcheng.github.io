@@ -20,5 +20,5 @@ classes: wide
 
 **Reviewer for peer-reviewed journals**
 
-Including [TKDE](https://www.computer.org/csdl/journal/tk), [WWWJ](https://www.springer.com/journal/11280), [TMC](https://www.computer.org/csdl/journal/tm), Transportation Research Part [A](https://www.journals.elsevier.com/transportation-research-part-a-policy-and-practice) & [E](https://www.journals.elsevier.com/transportation-research-part-e-logistics-and-transportation-review), [JOS](http://jos.org.cn)
+Including [TKDE](https://www.computer.org/csdl/journal/tk), [WWWJ](https://www.springer.com/journal/11280), [TMC](https://www.computer.org/csdl/journal/tm), [JOS](http://jos.org.cn), Transportation Research Part [A](https://www.journals.elsevier.com/transportation-research-part-a-policy-and-practice) & [E](https://www.journals.elsevier.com/transportation-research-part-e-logistics-and-transportation-review).
 
