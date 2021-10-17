@@ -10,11 +10,11 @@ classes: wide
   
 **Member of program committees (reviewer)**
 
-[VLDB](https://vldb.org/) 2022     
-[KDD](https://www.kdd.org/) 2019
-[CIKM](http://www.cikmconference.org/) 2021
-[SDM](https://www.siam.org/conferences/archives) 2021, 2022
-[DASFAA](https://www.dasfaa.net/) 2020
+[VLDB](https://vldb.org/) 2022     <br/>
+[KDD](https://www.kdd.org/) 2019<br/>
+[CIKM](http://www.cikmconference.org/) 2021<br/>
+[SDM](https://www.siam.org/conferences/archives) 2021, 2022<br/>
+[DASFAA](https://www.dasfaa.net/) 2020<br/>
 
 
 
