@@ -19,7 +19,7 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
 
 
 
-<script src="https://bibbase.org/show?bib=https://cspcheng.github.io/files/peng-publications.bib&jsonp=1&nocache=1&theme=default"></script> 
+<script src="https://bibbase.org/show?bib=https://cspcheng.github.io/files/peng-publications.bib&jsonp=1&nocache=1&theme=simple&authorFirst=1&hidemenu=true"></script> 
 
 {% include base_path %}
 
