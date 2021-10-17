@@ -1,0 +1,584 @@
+@mastersthesis{guedj2010,
+author="Guedj, Benjamin",
+title = "A Bayesian modelling of the hybridization mechanism",
+year = "2010",
+school = "Sorbonne Université and Danmarks Tekniske Universitet"
+}
+
+@article{guedj2011,
+author = {Guedj, Benjamin and Guillot, Gilles},
+title = {Estimating the location and shape of hybrid zones},
+journal = {Molecular Ecology Resources},
+volume = {11},
+number = {6},
+pages = {1119-1123},
+year = {2011},
+abstract="We propose a new model to make use of georeferenced genetic data for inferring the location and shape of a hybrid zone. The model output includes the posterior distribution of a parameter that quantifies the width of the hybrid zone. The model proposed is implemented in the GUI and command‐line versions of the Geneland program versions $\geq$3.3.0. Information about the program can be found on http://www2.imm.dtu.dk/gigu/Geneland/.",
+keywords = {Population structure, hybridization, admixture, selection pressure, Markov chain Monte Carlo, Geneland},
+doi = {10.1111/j.1755-0998.2011.03045.x},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2011.03045.x},
+url_Software = "https://i-pri.org/special/Biostatistics/Software/Geneland/"
+}
+
+@article{guedj2013,
+author = "Guedj, Benjamin and Alquier, Pierre",
+doi = "10.1214/13-EJS771",
+fjournal = "Electronic Journal of Statistics",
+journal = "Electron. J. Statist.",
+pages = "264--291",
+abstract = "The present paper is about estimation and prediction in high-dimensional additive models under a sparsity assumption ($p\gg n$ paradigm). A PAC-Bayesian strategy is investigated, delivering oracle inequalities in probability. The implementation is performed through recent outcomes in high-dimensional MCMC algorithms, and the performance of our method is assessed on simulated data.",
+publisher = "The Institute of Mathematical Statistics and the Bernoulli Society",
+title = "PAC-Bayesian estimation and prediction in sparse additive models",
+url = "https://doi.org/10.1214/13-EJS771",
+volume = "7",
+year = "2013",
+url_PDF = "https://arxiv.org/pdf/1208.1211.pdf",
+url_Software = "https://cran.r-project.org/package=pacbpred"
+}
+
+@phdthesis{guedj2013phd,
+TITLE = {{Aggregation of estimators and classifiers: theory and methods}},
+AUTHOR = {Guedj, Benjamin},
+URL = {https://tel.archives-ouvertes.fr/tel-00922353},
+SCHOOL = {{Universit{\'e} Pierre et Marie Curie - Paris VI}},
+YEAR = {2013},
+MONTH = Dec,
+abstract = "This thesis is devoted to the study of both theoretical and practical properties of various aggregation techniques. We first extend the PAC-Bayesian theory to the high dimensional paradigm in the additive and logistic regression settings. We prove that our estimators are nearly minimax optimal, and we provide an MCMC implementation, backed up by numerical simulations. Next, we introduce an original nonlinear aggregation strategy. Its theoretical merits are presented, and we benchmark the method—called COBRA—on a lengthy series of numerical experiments. Finally, a Bayesian approach to model admixture in population genetics is presented, along with its MCMC implementation. All approaches introduced in this thesis are freely available on the author’s website.",
+KEYWORDS = {Aggregation ; oracle inequalities ; PAC-Bayesian theory ; sparsity ; Agr{\'e}gation ; r{\'e}gression ; classification ; in{\'e}galit{\'e}s oracles ; th{\'e}orie PAC-bay{\'e}sienne ; COBRA ; MCMC ; parcimonie},
+TYPE = {Theses},
+url_PDF = "https://bguedj.github.io/files/bguedj-phd.pdf"
+}
+
+@article{chopin2015survey,
+title={On some recent advances on high dimensional Bayesian statistics},
+author={Chopin, Nicolas and Gadat, S{\'e}bastien and Guedj, Benjamin and Guyader, Arnaud and Vernet, Elodie},
+journal={ESAIM: Proceedings and Surveys},
+volume={51},
+pages={293--319},
+year={2015},
+abstract = "This paper proposes to review some recent developments in Bayesian statistics for high dimensional data. After giving some brief motivations in a short introduction, we describe new advances in the understanding of Bayes posterior computation as well as theoretical contributions in non parametric and high dimensional Bayesian approaches. From an applied point of view, we describe the so-called SQMC particle method to compute posterior Bayesian law, and provide a nonparametric analysis of the widespread ABC method. On the theoretical side, we describe some recent advances in Bayesian consistency for a nonparametric hidden Markov model as well as new PAC-Bayesian results for different models of high dimensional regression.",
+publisher={EDP Sciences},
+DOI= "10.1051/proc/201551016",
+url= "https://doi.org/10.1051/proc/201551016"
+}
+
+@article{biau2016cobra,
+title={COBRA: A combined regression strategy},
+author={Biau, G{\'e}rard and Fischer, Aur{\'e}lie and Guedj, Benjamin and Malley, James D.},
+journal={Journal of Multivariate Analysis},
+volume={146},
+pages={18--28},
+year={2016},
+abstract = "A new method for combining several initial estimators of the regression function is introduced. Instead of building a linear or convex optimized combination over a collection of basic estimators $r_1,\dots,r_M$, we use them as a collective indicator of the proximity between the training data and a test observation. This local distance approach is model-free and very fast. More specifically, the resulting nonparametric/nonlinear combined estimator is shown to perform asymptotically at least as well in the $L^2$
+sense as the best combination of the basic estimators in the collective. A companion R package called COBRA (standing for COmBined Regression Alternative) is presented (downloadable on http://cran.r-project.org/web/packages/COBRA/index.html). Substantial numerical evidence is provided on both synthetic and real data sets to assess the excellent performance and velocity of our method in a large variety of prediction problems.",
+publisher={Elsevier},
+note = "Special Issue on Statistical Models and Methods for High or Infinite Dimensional Spaces",
+issn = "0047-259X",
+doi = "https://doi.org/10.1016/j.jmva.2015.04.007",
+url = "http://www.sciencedirect.com/science/article/pii/S0047259X15000950",
+url_PDF = "https://arxiv.org/pdf/1303.2236.pdf",
+url_Software = "https://cran.r-project.org/package=COBRA"
+}
+
+@unpublished{celisse2016stability,
+title={Stability revisited: new generalisation bounds for the Leave-one-Out},
+author={Celisse, Alain and Guedj, Benjamin},
+note={Preprint.},
+url = "https://arxiv.org/abs/1608.06412",
+url_PDF = "https://arxiv.org/pdf/1608.06412.pdf",
+year={2016},
+abstract = "The present paper provides a new generic strategy leading to non-asymptotic theoretical guarantees on the Leave-one-Out procedure applied to a broad class of learning algorithms. This strategy relies on two main ingredients: the new notion of $L^q$ stability, and the strong use of moment inequalities. $L^q$ stability extends the ongoing notion of hypothesis stability while remaining weaker than the uniform stability. It leads to new PAC exponential generalisation bounds for Leave-one-Out under mild assumptions. In the literature, such bounds are available only for uniform stable algorithms under boundedness for instance. Our generic strategy is applied to the Ridge regression algorithm as a first step."
+}
+
+@article{alquier2017oracle,
+title={An oracle inequality for quasi-Bayesian nonnegative matrix factorization},
+author={Alquier, Pierre and Guedj, Benjamin},
+journal={Mathematical Methods of Statistics},
+volume={26},
+number={1},
+pages={55--67},
+year={2017},
+publisher={Springer},
+abstract = "The aim of this paper is to provide some theoretical understanding of quasi-Bayesian aggregation methods non-negative matrix factorization. We derive an oracle inequality for an aggregated estimator. This result holds for a very general class of prior distributions and shows how the prior affects the rate of convergence.",
+issn="1934-8045",
+doi="10.3103/S1066530717010045",
+url="https://arxiv.org/abs/1601.01345",
+url_PDF = "https://arxiv.org/pdf/1601.01345.pdf",
+url_Software = "https://github.com/astha736/PACbayesianNMF"
+}
+
+@article{guedj2018pac,
+title={PAC-Bayesian high dimensional bipartite ranking},
+author={Guedj, Benjamin and Robbiano, Sylvain},
+journal={Journal of Statistical Planning and Inference},
+year={2018},
+publisher={Elsevier},
+volume = "196",
+pages = "70 - 86",
+abstract = "This paper is devoted to the bipartite ranking problem, a classical statistical learning task, in a high dimensional setting. We propose a scoring and ranking strategy based on the PAC-Bayesian approach. We consider nonlinear additive scoring functions, and we derive non-asymptotic risk bounds under a sparsity assumption. In particular, oracle inequalities in probability holding under a margin condition assess the performance of our procedure, and prove its minimax optimality. An MCMC-flavored algorithm is proposed to implement our method, along with its behavior on synthetic and real-life datasets.",
+issn = "0378-3758",
+doi = "https://doi.org/10.1016/j.jspi.2017.10.010",
+url = "http://www.sciencedirect.com/science/article/pii/S0378375817301945",
+url_PDF = "https://arxiv.org/pdf/1511.02729.pdf"
+}
+
+@article{alquier2018simpler,
+title={Simpler PAC-Bayesian bounds for hostile data},
+author={Alquier, Pierre and Guedj, Benjamin},
+journal={Machine Learning},
+volume={107},
+number={5},
+pages={887--902},
+year={2018},
+publisher={Springer},
+abstract = "PAC-Bayesian learning bounds are of the utmost interest to the learning community. Their role is to connect the generalization ability of an aggregation distribution $\rho$ to its empirical risk and to its Kullback-Leibler divergence with respect to some prior distribution $\pi$. Unfortunately, most of the available bounds typically rely on heavy assumptions such as boundedness and independence of the observations. This paper aims at relaxing these constraints and provides PAC-Bayesian learning bounds that hold for dependent, heavy-tailed observations (hereafter referred to as \emph{hostile data}). In these bounds the Kullack-Leibler divergence is replaced with a general version of Csiszár’s f-divergence. We prove a general PAC-Bayesian bound, and show how to use it in various hostile settings.",
+issn="1573-0565",
+doi="10.1007/s10994-017-5690-0",
+url="https://doi.org/10.1007/s10994-017-5690-0",
+url_PDF = "https://arxiv.org/pdf/1610.07193.pdf"
+}
+
+@article{guedj2018pycobra,
+author  = {Guedj, Benjamin and Srinivasa Desikan, Bhargav},
+title   = {Pycobra: A Python Toolbox for Ensemble Learning and Visualisation},
+journal = {Journal of Machine Learning Research},
+year    = {2018},
+volume  = {18},
+number  = {190},
+pages   = {1-5},
+abstract = "We introduce pycobra, a Python library devoted to ensemble learning (regression and classification) and visualisation. Its main assets are the implementation of several ensemble learning algorithms, a flexible and generic interface to compare and blend any existing machine learning algorithm available in Python libraries (as long as a predict method is given), and visualisation tools such as Voronoi tessellations. pycobra is fully scikit-learn compatible and is released under the MIT open-source license. pycobra can be downloaded from the Python Package Index (PyPi) and Machine Learning Open Source Software (MLOSS). The current version (along with Jupyter notebooks, extensive documentation, and continuous integration tests) is available at https://github.com/bhargavvader/pycobra and official documentation website is https://modal.lille.inria.fr/pycobra.",
+url     = {http://jmlr.org/beta/papers/v18/17-228.html},
+url_PDF = "http://jmlr.org/papers/volume18/17-228/17-228.pdf",
+url_Software = "https://github.com/bhargavvader/pycobra"
+}
+
+@article{li2018,
+author = "Li, Le and Guedj, Benjamin and Loustau, Sébastien",
+doi = "10.1214/18-EJS1479",
+fjournal = "Electronic Journal of Statistics",
+journal = "Electron. J. Statist.",
+number = "2",
+pages = "3071--3113",
+abstract = "When faced with high frequency streams of data, clustering raises theoretical and algorithmic pitfalls. We introduce a new and adaptive online clustering algorithm relying on a quasi-Bayesian approach, with a dynamic (i.e., time-dependent) estimation of the (unknown and changing) number of clusters. We prove that our approach is supported by minimax regret bounds. We also provide an RJMCMC-flavored implementation (called PACBO, see https://cran.r-project.org/web/packages/PACBO/index.html) for which we give a convergence guarantee. Finally, numerical experiments illustrate the potential of our procedure.",
+publisher = "The Institute of Mathematical Statistics and the Bernoulli Society",
+title = "A quasi-Bayesian perspective to online clustering",
+url = "https://doi.org/10.1214/18-EJS1479",
+url_PDF = "https://arxiv.org/pdf/1602.00522.pdf",
+url_Software = "https://cran.r-project.org/src/contrib/Archive/PACBO/",
+volume = "12",
+year = "2018"
+}
+
+@unpublished{guedj2018sequential,
+title={Sequential Learning of Principal Curves: Summarizing Data Streams on the Fly},
+author={Guedj, Benjamin and Li, Le},
+note={Submitted.},
+url = "https://arxiv.org/abs/1805.07418",
+url_PDF = "https://arxiv.org/pdf/1805.07418.pdf",
+abstract = "When confronted with massive data streams, summarizing data with dimension reduction methods such as PCA raises theoretical and algorithmic pitfalls. Principal curves act as a nonlinear generalization of PCA and the present paper proposes a novel algorithm to automatically and sequentially learn principal curves from data streams. We show that our procedure is supported by regret bounds with optimal sublinear remainder terms. A greedy local search implementation (called \texttt{slpc}, for Sequential Learning Principal Curves) that incorporates both sleeping experts and multi-armed bandit ingredients is presented, along with its regret computation and performance on synthetic and real-life data.",
+year={2018}
+}
+
+@inproceedings{klein2018,
+author={Klein, John and Albardan, Mahmoud and Guedj, Benjamin and Colot, Olivier},
+editor="Cellier, Peggy
+and Driessens, Kurt",
+title="Decentralized Learning with Budgeted Network Load Using Gaussian Copulas and Classifier Ensembles",
+booktitle="ECML-PKDD 2019: Machine Learning and Knowledge Discovery in Databases",
+year="2020",
+publisher="Springer International Publishing",
+pages="301--316",
+abstract="We examine a network of learners which address the same classification task but must learn from different data sets. The learners cannot share data but instead share their models. Models are shared only one time so as to preserve the network load. We introduce DELCO (standing for Decentralized Ensemble Learning with COpulas), a new approach allowing to aggregate the predictions of the classifiers trained by each learner. The proposed method aggregates the base classifiers using a probabilistic model relying on Gaussian copulas. Experiments on logistic regressor ensembles demonstrate competing accuracy and increased robustness in case of dependent classifiers. A companion python implementation can be downloaded at https://github.com/john-klein/DELCO.",
+isbn="978-3-030-43823-4",
+doi = "10.1007/978-3-030-43823-4_26",
+url = "https://link.springer.com/chapter/10.1007%2F978-3-030-43823-4_26",
+url_PDF = "https://arxiv.org/pdf/1804.10028.pdf",
+url_Software = "https://github.com/john-klein/DELCO"
+}
+
+
+@inproceedings{guedj2019primer,
+title={A Primer on PAC-Bayesian Learning},
+author={Guedj, Benjamin},
+booktitle={Proceedings of the second congress of the French Mathematical Society},
+year={2019},
+abstract = "Generalised Bayesian learning algorithms are increasingly popular in machine learning, due to their PAC generalisation properties and flexibility. The present paper aims at providing a self-contained survey on the resulting PAC-Bayes framework and some of its main theoretical and algorithmic developments.",
+url = "https://arxiv.org/abs/1901.05353",
+url_PDF = "https://arxiv.org/pdf/1901.05353.pdf",
+url_Video = "https://youtu.be/6t_vojO8jLI"
+}
+
+@inproceedings{chretien2019revisiting,
+title={Revisiting clustering as matrix factorisation on the Stiefel manifold},
+author={Chr{\'e}tien, St{\'e}phane and Guedj, Benjamin},
+year={2020},
+abstract = "This paper studies clustering for possibly high dimensional data (e.g. images, time series, gene expression data, and many other settings), and rephrase it as low rank matrix estimation in the PAC-Bayesian framework. Our approach leverages the well known Burer-Monteiro factorisation strategy from large scale optimisation, in the context of low rank estimation. Moreover, our Burer-Monteiro factors are shown to lie on a Stiefel manifold. We propose a new generalized Bayesian estimator for this problem and prove novel prediction bounds for clustering. We also devise a componentwise Langevin sampler on the Stiefel manifold to compute this estimator.",
+booktitle="LOD -- The Sixth International Conference on Machine Learning, Optimization, and Data Science",
+url = "https://arxiv.org/abs/1903.04479",
+url_PDF = "https://arxiv.org/pdf/1903.04479.pdf",
+url_Video = "https://youtu.be/Gz2euWW8kyA"
+}
+
+@inproceedings{guedj2019nonlinear,
+title={Non-linear aggregation of filters to improve image denoising},
+author={Guedj, Benjamin and Rengot, Juliette},
+booktitle="Computing Conference",
+editor="Arai, Kohei
+and Kapoor, Supriya
+and Bhatia, Rahul",
+publisher="Springer International Publishing",
+pages="314--327",
+abstract="We introduce a novel aggregation method to efficiently perform image denoising. Preliminary filters are aggregated in a non-linear fashion, using a new metric of pixel proximity based on how the pool of filters reaches a consensus. We provide a theoretical bound to support our aggregation scheme, its numerical performance is illustrated and we show that the aggregate significantly outperforms each of the preliminary filters.",
+isbn="978-3-030-52246-9",
+doi = "10.1007/978-3-030-52246-9_22",
+year={2020},
+eprint={1904.00865},
+archivePrefix={arXiv},
+url = "https://arxiv.org/abs/1904.00865",
+url_PDF = "https://arxiv.org/pdf/1904.00865.pdf",
+url_Software = "https://github.com/rengotj/cobra_denoising",
+url_Video = "https://youtu.be/cX1DErrxzOk"
+}
+
+@unpublished{zhang2019perturbation,
+title={Perturbation Validation: A New Heuristic to Validate Machine Learning Models},
+author={Jie M. Zhang and Mark Harman and Benjamin Guedj and Earl T. Barr and John Shawe-Taylor},
+year={2019},
+note = "Submitted.",
+abstract = {This paper introduces Perturbation Validation (PV), a new heuristic to validate machine learning models. PV does not rely on test data. Instead, it perturbs training data labels, re-trains the model against the perturbed data, then uses the consequent training accuracy decrease rate to assess model fit. PV also differs from traditional statistical approaches, which make judgements without considering label distribution. We evaluate PV on 10 real-world datasets and 6 synthetic datasets. Our results demonstrate that PV is more discriminating about model fit than existing validation approaches and it accords well with widely-held intuitions concerning the properties of a good model fit measurement. We also show that PV complements existing validation approaches, allowing us to give explanations for some of the issues present in the recently-debated "apparent paradox" that high capacity (potentially "overfitted") models may, nevertheless, exhibit good generalisation ability.},
+url = "https://arxiv.org/abs/1905.10201",
+url_PDF = "https://arxiv.org/pdf/1905.10201.pdf",
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@inproceedings{letarte19dichotomize,
+author    = {Ga{\"{e}}l Letarte and
+Pascal Germain and
+Benjamin Guedj and
+Fran{\c{c}}ois Laviolette},
+editor    = {Hanna M. Wallach and
+Hugo Larochelle and
+Alina Beygelzimer and
+Florence d'Alch{\'{e}}{-}Buc and
+Emily B. Fox and
+Roman Garnett},
+title     = {Dichotomize and Generalize: PAC-Bayesian Binary Activated Deep Neural
+Networks},
+booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+on Neural Information Processing Systems 2019, NeurIPS 2019, 8-14
+December 2019, Vancouver, BC, Canada},
+pages     = {6869--6879},
+year      = {2019},
+eprint = "https://arxiv.org/abs/1905.10259",
+timestamp = {Fri, 06 Mar 2020 16:59:22 +0100},
+biburl    = {https://dblp.org/rec/conf/nips/LetarteGGL19.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org},
+abstract = "We present a comprehensive study of multilayer neural networks with binary activation, relying on the PAC-Bayesian theory. Our contributions are twofold: (i) we develop an end-to-end framework to train a binary activated deep neural network, (ii) we provide nonvacuous PAC-Bayesian generalization bounds for binary activated deep neural networks. Our results are obtained by minimizing the expected loss of an architecture-dependent aggregation of binary activated deep neural networks. Our analysis inherently overcomes the fact that binary activation function is non-differentiable. The performance of our approach is assessed on a thorough numerical experiment protocol on real-life datasets.",
+url = "https://papers.nips.cc/paper/8911-dichotomize-and-generalize-pac-bayesian-binary-activated-deep-neural-networks",
+url_PDF = "https://papers.nips.cc/paper/8911-dichotomize-and-generalize-pac-bayesian-binary-activated-deep-neural-networks.pdf",
+url_Software = "https://github.com/gletarte/dichotomize-and-generalize",
+url_Video = "https://youtu.be/FcIE0AVrTDg"
+}
+
+@article{Alliez_2020,
+title={Attributing and Referencing (Research) Software: Best Practices and Outlook From Inria},
+volume={22},
+ISSN={1558-366X},
+url={http://dx.doi.org/10.1109/MCSE.2019.2949413},
+DOI={10.1109/mcse.2019.2949413},
+number={1},
+abstract = "Software is a fundamental pillar of modern scientific research, across all fields and disciplines. However, there is a lack of adequate means to cite and reference software due to the complexity of the problem in terms of authorship, roles, and credits. This complexity is further increased when it is considered over the lifetime of a software that can span up to several decades. Building upon the internal experience of Inria, the French research institute for digital sciences, we provide in this article a contribution to the ongoing efforts in order to develop proper guidelines and recommendations for software citation and reference. Namely, we recommend: first, a richer taxonomy for software contributions with a qualitative scale; second, to put humans at the heart of the evaluation; and third, to distinguish citation from reference.",
+journal={Computing in Science & Engineering},
+publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+author={Alliez, Pierre and Cosmo, Roberto Di and Guedj, Benjamin and Girault, Alain and Hacid, Mohand-Said and Legrand, Arnaud and Rougier, Nicolas},
+year={2020},
+month={Jan},
+pages={39–52}
+}
+
+@inproceedings{mhammedi19pac,
+author    = {Zakaria Mhammedi and
+Peter Gr{\"{u}}nwald and
+Benjamin Guedj},
+editor    = {Hanna M. Wallach and
+Hugo Larochelle and
+Alina Beygelzimer and
+Florence d'Alch{\'{e}}{-}Buc and
+Emily B. Fox and
+Roman Garnett},
+title     = {PAC-Bayes Un-Expected Bernstein Inequality},
+booktitle = {Advances in Neural Information Processing Systems 32: Annual Conference
+on Neural Information Processing Systems 2019, NeurIPS 2019, 8-14
+December 2019, Vancouver, BC, Canada},
+pages     = {12180--12191},
+year      = {2019},
+url       = {http://papers.nips.cc/paper/9387-pac-bayes-un-expected-bernstein-inequality},
+timestamp = {Fri, 06 Mar 2020 16:59:25 +0100},
+biburl    = {https://dblp.org/rec/conf/nips/MhammediGG19.bib},
+abstract = "We present a new PAC-Bayesian generalization bound. Standard bounds contain a $\sqrt{L_n \cdot \mathrm{KL}/n}$ complexity term which dominates unless $L_n$, the empirical error of the learning algorithm's randomized predictions, vanishes. We manage to replace $L_n$ by a term which vanishes in many more situations, essentially whenever the employed learning algorithm is sufficiently stable on the dataset at hand. Our new bound consistently beats state-of-the-art bounds both on a toy example and on UCI datasets (with large enough $n$). Theoretically, unlike existing bounds, our new bound can be expected to converge to $0$ faster whenever a Bernstein/Tsybakov condition holds, thus connecting PAC-Bayesian generalization and {\em excess risk\/} bounds---for the latter it has long been known that faster convergence can be obtained under Bernstein conditions. Our main technical tool is a new concentration inequality which is like Bernstein's but with $X^2$ taken outside its expectation.",
+bibsource = {dblp computer science bibliography, https://dblp.org},
+url = "https://papers.nips.cc/paper/9387-pac-bayes-un-expected-bernstein-inequality",
+url_PDF = "https://papers.nips.cc/paper/9387-pac-bayes-un-expected-bernstein-inequality.pdf",
+url_Software = "https://github.com/bguedj/PAC-Bayesian-Un-Expected-Bernstein-Inequality"
+}
+
+
+@InProceedings{pmlr-v130-cohen-addad21a,
+title = 	 { Online k-means Clustering },
+author =       {Cohen-Addad, Vincent and Guedj, Benjamin and Kanade, Varun and Rom, Guy},
+booktitle = 	 {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics},
+pages = 	 {1126--1134},
+year = 	 {2021},
+editor = 	 {Banerjee, Arindam and Fukumizu, Kenji},
+volume = 	 {130},
+series = 	 {Proceedings of Machine Learning Research},
+month = 	 {13--15 Apr},
+publisher =    {PMLR},
+url = 	 {http://proceedings.mlr.press/v130/cohen-addad21a.html},
+url_PDF = 	 {http://proceedings.mlr.press/v130/cohen-addad21a/cohen-addad21a.pdf},
+url_arXiv = "https://arxiv.org/abs/1909.06861",
+abstract = 	 { We study the problem of learning a clustering of an online set of points. The specific formulation we use is the k-means objective: At each time step the algorithm has to maintain a set of k candidate centers and the loss incurred by the algorithm is the squared distance between the new point and the closest center. The goal is to minimize regret with respect to the best solution to the k-means objective in hindsight. We show that provided the data lies in a bounded region, learning is possible, namely an implementation of the Multiplicative Weights Update Algorithm (MWUA) using a discretized grid achieves a regret bound of $\tilde{O}(\sqrt{T})$ in expectation. We also present an online-to-offline reduction that shows that an efficient no-regret online algorithm (despite being allowed to choose a different set of candidate centres at each round) implies an offline efficient algorithm for the k-means problem, which is known to be NP-hard. In light of this hardness, we consider the slightly weaker requirement of comparing regret with respect to $(1 + \epsilon)OPT$ and present a no-regret algorithm with runtime $O\left(T \mathrm{poly}(\log(T),k,d,1/\epsilon)^{O(kd)}\right)$. Our algorithm is based on maintaining a set of points of bounded size which is a coreset that helps identifying the \emph{relevant} regions of the space for running an adaptive, more efficient, variant of the MWUA. We show that simpler online algorithms, such as \emph{Follow The Leader} (FTL), fail to produce sublinear regret in the worst case. We also report preliminary experiments with synthetic and real-world data. Our theoretical results answer an open question of Dasgupta (2008). }
+}
+
+
+
+@unpublished{guedj2019free,
+title={Still no free lunches: the price to pay for tighter PAC-Bayes bounds},
+author={Benjamin Guedj and Louis Pujol},
+year={2019},
+note = "Preprint.",
+abstract = {"No free lunch" results state the impossibility of obtaining meaningful bounds on the error of a learning algorithm without prior assumptions and modelling. Some models are expensive (strong assumptions, such as as subgaussian tails), others are cheap (simply finite variance). As it is well known, the more you pay, the more you get: in other words, the most expensive models yield the more interesting bounds. Recent advances in robust statistics have investigated procedures to obtain tight bounds while keeping the cost minimal. The present paper explores and exhibits what the limits are for obtaining tight PAC-Bayes bounds in a robust setting for cheap models, addressing the question: is PAC-Bayes good value for money?},
+url = "https://arxiv.org/abs/1910.04460",
+url_PDF = "https://arxiv.org/pdf/1910.04460.pdf",
+eprint={1910.04460},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@inproceedings{nozawa2019pacbayesian,
+title={PAC-Bayesian Contrastive Unsupervised Representation Learning},
+author={Kento Nozawa and Pascal Germain and Benjamin Guedj},
+year={2020},
+abstract = "Contrastive unsupervised representation learning (CURL) is the state-of-the-art technique to learn representations (as a set of features) from unlabelled data. While CURL has collected several empirical successes recently, theoretical understanding of its performance was still missing. In a recent work, Arora et al. (2019) provide the first generalisation bounds for CURL, relying on a Rademacher complexity. We extend their framework to the flexible PAC-Bayes setting, allowing us to deal with the non-iid setting. We present PAC-Bayesian generalisation bounds for CURL, which are then used to derive a new representation learning algorithm. Numerical experiments on real-life datasets illustrate that our algorithm achieves competitive accuracy, and yields non-vacuous generalisation bounds.",
+booktitle = "UAI",
+url = "https://arxiv.org/abs/1910.04464",
+url_PDF = "http://www.auai.org/uai2020/proceedings/24_supp.pdf",
+url_Video = "https://youtu.be/WUh3Fgo5nhY",
+url_Software = "https://github.com/nzw0301/pb-contrastive",
+eprint={1910.04464},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@article{dewez2020industrywide,
+title={From industry-wide parameters to aircraft-centric on-flight inference: improving aeronautics performance prediction with machine learning},
+author={Florent Dewez and Benjamin Guedj and Vincent Vandewalle},
+year={2020},
+journal={Data-Centric Engineering},
+publisher={Cambridge University Press},
+abstract = "Aircraft performance models play a key role in airline operations, especially in planning a fuel-efficient flight. In practice, manufacturers provide guidelines calibrated on one single aircraft, with performance modelling for all similar aircrafts (\emph{i.e.} same model) relying solely on that. In particular, it may poorly reflect on the current performance of a given aircraft. However, for each aircraft, flight data are continuously recorded and as such, not used to improve on the existing models. The key contribution of the present article is to foster the use of machine learning to leverage the massive amounts of collected data and update the models to reflect the actual performance of the aircraft. We illustrate our approach by focusing on the estimation of the drag and lift coefficients from recorded flight data. As these coefficients are not directly recorded, we resort to aerodynamics approximations. As a safety check, we provide bounds to assess the accuracy of both the aerodynamics approximation and the statistical performance of our approach. We provide numerical results on a collection of machine learning algorithms. We report excellent accuracy on real-life data and exhibit empirical evidence to support our modelling, in coherence with aerodynamics principles.",
+eprint={2005.05286},
+volume = "1",
+doi = {10.1017/dce.2020.12},
+url = "https://arxiv.org/abs/2005.05286",
+url_PDF = "https://arxiv.org/pdf/2005.05286.pdf",
+archivePrefix={arXiv},
+primaryClass={stat.AP}
+}
+
+@article{Guedj_2020,
+title={Kernel-Based Ensemble Learning in Python},
+volume={11},
+ISSN={2078-2489},
+url={http://dx.doi.org/10.3390/info11020063},
+DOI={10.3390/info11020063},
+url_PDF = "https://www.mdpi.com/2078-2489/11/2/63/pdf",
+url_Software = "https://github.com/bhargavvader/pycobra",
+number={2},
+journal={Information},
+publisher={MDPI AG},
+author={Guedj, Benjamin and Srinivasa Desikan, Bhargav},
+year={2020},
+abstract = {We propose a new supervised learning algorithm for classification and regression problems where two or more preliminary predictors are available. We introduce KernelCobra, a non-linear learning strategy for combining an arbitrary number of initial predictors. KernelCobra builds on the COBRA algorithm introduced by Biau et al. (2016), which combined estimators based on a notion of proximity of predictions on the training data. While the COBRA algorithm used a binary threshold to declare which training data were close and to be used, we generalise this idea by using a kernel to better encapsulate the proximity information. Such a smoothing kernel provides more representative weights to each of the training points which are used to build the aggregate and final predictor, and KernelCobra systematically outperforms the COBRA algorithm. While COBRA is intended for regression, KernelCobra deals with classification and regression. KernelCobra is included as part of the open source Python package Pycobra (0.2.4 and onward), introduced by Srinivasa Desikan (2018). Numerical experiments were undertaken to assess the performance (in terms of pure prediction and computational complexity) of KernelCobra on real-life and synthetic datasets.},
+month={Jan},
+pages={63}
+}
+
+@unpublished{haddouche2020pacbayes,
+title={{PAC-Bayes unleashed: generalisation bounds with unbounded losses}},
+author={Maxime Haddouche and Benjamin Guedj and Omar Rivasplata and John Shawe-Taylor},
+year={2020},
+eprint={2006.07279},
+archivePrefix={arXiv},
+abstract = "We present new PAC-Bayesian generalisation bounds for learning problems with unbounded loss functions. This extends the relevance and applicability of the PAC-Bayes learning framework, where most of the existing literature focuses on supervised learning problems with a bounded loss function (typically assumed to take values in the interval [0;1]). In order to relax this assumption, we propose a new notion called HYPE (standing for \emph{HYPothesis-dependent rangE}), which effectively allows the range of the loss to depend on each predictor. Based on this new notion we derive a novel PAC-Bayesian generalisation bound for unbounded loss functions, and we instantiate it on a linear regression problem. To make our theory usable by the largest audience possible, we include discussions on actual computation, practicality and limitations of our assumptions.",
+primaryClass={stat.ML},
+note = "Submitted.",
+url = "https://arxiv.org/abs/2006.07279",
+url_PDF = "https://arxiv.org/pdf/2006.07279.pdf",
+url_Software = "https://github.com/bguedj/pac-bayes-self-bounding"
+}
+
+@unpublished{vendeville2020opinions,
+title={Voter Model with Stubborn Agents on Strongly Connected Social Networks},
+author={Antoine Vendeville and Benjamin Guedj and Shi Zhou},
+year={2020},
+note = "Submitted.",
+abstract = {We address the phenomenon of sedimentation of opinions in networks and investigate how agents who never change their minds ("stubborn") can influence the opinion of a social group. This is done by means of the voter model in which users are divided in two camps and repeatedly update their opinions based on others they connect with. Assuming a proportion of the agents are stubborn, the distribution of opinions reaches an equilibrium. We give novel formulas based on Markov Chain analysis to compute the distribution of opinions at any time and speed of convergence to stationary equilibrium. Theoretical results are supported by numerical experiments on synthetic data, and as an example of application we discuss a strategy to mitigate the polarisation phenomenon.},
+url = "https://arxiv.org/abs/2006.07265",
+url_PDF = "https://arxiv.org/pdf/2006.07265.pdf",
+url_Software = "https://github.com/AntoineVendeville/HowOpinionsCrystallise",
+eprint={2006.07265},
+archivePrefix={arXiv},
+primaryClass={cs.SI}
+}
+
+@unpublished{biggs2020differentiable,
+title={Differentiable PAC-Bayes Objectives with Partially Aggregated Neural Networks},
+author={Felix Biggs and Benjamin Guedj},
+year={2020},
+eprint={2006.12228},
+abstract = "We make three related contributions motivated by the challenge of training stochastic neural networks, particularly in a PAC-Bayesian setting: (1) we show how averaging over an ensemble of stochastic neural networks enables a new class of \emph{partially-aggregated} estimators; (2) we show that these lead to provably lower-variance gradient estimates for non-differentiable signed-output networks; (3) we reformulate a PAC-Bayesian bound for these networks to derive a directly optimisable, differentiable objective and a generalisation guarantee, without using a surrogate loss or loosening the bound. This bound is twice as tight as that of Letarte et al. (2019) on a similar network type. We show empirically that these innovations make training easier and lead to competitive guarantees.",
+url = "https://arxiv.org/abs/2006.12228",
+url_PDF = "https://arxiv.org/pdf/2006.12228.pdf",
+archivePrefix={arXiv},
+note = "Submitted.",
+primaryClass={cs.LG}
+}
+
+@inproceedings{mhammedi2020pacbayesian,
+title={{PAC-Bayesian Bound for the Conditional Value at Risk}},
+author={Zakaria Mhammedi and Benjamin Guedj and Robert C. Williamson},
+year={2020},
+eprint={2006.14763},
+booktitle = {NeurIPS},
+abstract = {Conditional Value at Risk (CVaR) is a family of "coherent risk measures" which generalize the traditional mathematical expectation. Widely used in mathematical finance, it is garnering increasing interest in machine learning, e.g., as an alternate approach to regularization, and as a means for ensuring fairness. This paper presents a generalization bound for learning algorithms that minimize the CVaR of the empirical loss. The bound is of PAC-Bayesian type and is guaranteed to be small when the empirical CVaR is small. We achieve this by reducing the problem of estimating CVaR to that of merely estimating an expectation. This then enables us, as a by-product, to obtain concentration inequalities for CVaR even when the random variable in question is unbounded.},
+archivePrefix={arXiv},
+url = "https://arxiv.org/abs/2006.14763",
+url_PDF = "https://arxiv.org/pdf/2006.14763.pdf",
+primaryClass={cs.LG}
+}
+
+@unpublished{leroy2020magma,
+title={MAGMA: Inference and Prediction with Multi-Task Gaussian Processes},
+author={Arthur Leroy and Pierre Latouche and Benjamin Guedj and Servane Gey},
+year={2020},
+abstract = {We investigate the problem of multiple time series forecasting, with the objective to improve multiple-step-ahead predictions. We propose a multi-task Gaussian process framework to simultaneously model batches of individuals with a common mean function and a specific covariance structure. This common mean is defined as a Gaussian process for which the hyper-posterior distribution is tractable. Therefore an EM algorithm can be derived for simultaneous hyper-parameters optimisation and hyper-posterior computation. Unlike previous approaches in the literature, we account for uncertainty and handle uncommon grids of observations while maintaining explicit formulations, by modelling the mean process in a non-parametric probabilistic framework. We also provide predictive formulas integrating this common mean process. This approach greatly improves the predictive performance far from observations, where information shared across individuals provides a relevant prior mean. Our overall algorithm is called \textsc{Magma} (standing for Multi tAsk Gaussian processes with common MeAn), and publicly available as a R package. The quality of the mean process estimation, predictive performances, and comparisons to alternatives are assessed in various simulated scenarios and on real datasets.},
+eprint={2007.10731},
+archivePrefix={arXiv},
+primaryClass={stat.CO},
+url = {https://arxiv.org/abs/2007.10731},
+url_PDF = {https://arxiv.org/pdf/2007.10731.pdf},
+url_Software = {https://github.com/ArthurLeroy/MAGMA},
+note = "Submitted."
+}
+
+@article{vendeville2020elections,
+title={Forecasting elections results via the voter model with stubborn nodes},
+author={Antoine Vendeville and Benjamin Guedj and Shi Zhou},
+year={2021},
+volume = {6},
+journal = {Applied Network Science},
+DOI = {10.1007/s41109-020-00342-7},
+abstract = {In this paper we propose a novel method to forecast the result of elections using only official results of previous ones. It is based on the voter model with stubborn nodes and uses theoretical results developed in a previous work of ours. We look at popular vote shares for the Conservative and Labour parties in the UK and the Republican and Democrat parties in the US. We are able to perform time-evolving estimates of the model parameters and use these to forecast the vote shares for each party in any election. We obtain a mean absolute error of 4.74\%. As a side product, our parameters estimates provide meaningful insight on the political landscape, informing us on the proportion of voters that are strong supporters of each of the considered parties.},
+url = "https://arxiv.org/abs/2009.10627",
+url_PDF = "https://arxiv.org/pdf/2009.10627.pdf",
+url_Software = "https://github.com/AntoineVendeville/HowOpinionsCrystallise",
+eprint={2009.10627},
+archivePrefix={arXiv},
+primaryClass={cs.SI}
+}
+
+@unpublished{leroy2020clusterspecific,
+title={Cluster-Specific Predictions with Multi-Task Gaussian Processes}, 
+author={Arthur Leroy and Pierre Latouche and Benjamin Guedj and Servane Gey},
+year={2020},
+note = "Submitted.",
+abstract = {A model involving Gaussian processes (GPs) is introduced to simultaneously handle multi-task learning, clustering, and prediction for multiple functional data. This procedure acts as a model-based clustering method for functional data as well as a learning step for subsequent predictions for new tasks. The model is instantiated as a mixture of multi-task GPs with common mean processes. A variational EM algorithm is derived for dealing with the optimisation of the hyper-parameters along with the hyper-posteriors' estimation of latent variables and processes. We establish explicit formulas for integrating the mean processes and the latent clustering variables within a predictive distribution, accounting for uncertainty on both aspects. This distribution is defined as a mixture of cluster-specific GP predictions, which enhances the performances when dealing with group-structured data. The model handles irregular grid of observations and offers different hypotheses on the covariance structure for sharing additional information across tasks. The performances on both clustering and prediction tasks are assessed through various simulated scenarios and real datasets. The overall algorithm, called MagmaClust, is publicly available as an R package.},
+url = "https://arxiv.org/abs/2011.07866",
+url_PDF = "https://arxiv.org/pdf/2011.07866.pdf",
+url_Software = "https://github.com/ArthurLeroy/MAGMAclust",
+eprint={2011.07866},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@unpublished{dewez2020endtoend,
+title={An end-to-end data-driven optimisation framework for constrained trajectories}, 
+author={Florent Dewez and Benjamin Guedj and Arthur Talpaert and Vincent Vandewalle},
+year={2020},
+note = "Submitted.",
+abstract = {Many real-world problems require to optimise trajectories under constraints. Classical approaches are based on optimal control methods but require an exact knowledge of the underlying dynamics, which could be challenging or even out of reach. In this paper, we leverage data-driven approaches to design a new end-to-end framework which is dynamics-free for optimised and realistic trajectories. We first decompose the trajectories on function basis, trading the initial infinite dimension problem on a multivariate functional space for a parameter optimisation problem. A maximum \emph{a posteriori} approach which incorporates information from data is used to obtain a new optimisation problem which is regularised. The penalised term focuses the search on a region centered on data and includes estimated linear constraints in the problem. We apply our data-driven approach to two settings in aeronautics and sailing routes optimisation, yielding commanding results. The developed approach has been implemented in the Python library PyRotor.},
+url = "https://arxiv.org/abs/2011.11820",
+url_PDF = "https://arxiv.org/pdf/2011.11820.pdf",
+url_Software = "https://github.com/bguedj/pyrotor",
+eprint={2011.11820},
+archivePrefix={arXiv},
+primaryClass={stat.AP}
+}
+
+@techreport{brotcorne:hal-03033764,
+title = {{Indicateurs de suivi de l'activit{\'e} scientifique de l'Inria}},
+author = {Brotcorne, Luce and Canteaut, Anne and Viana, Aline Carneiro and Grandmont, C{\'e}line and Guedj, Benjamin and Huot, St{\'e}phane and Issarny, Val{\'e}rie and Pallez, Guillaume and Perrier, Val{\'e}rie and Quema, Vivien and Pomet, Jean-Baptiste and Rival, Xavier and Salvati, Sylvain and Thom{\'e}, Emmanuel},
+url = {https://hal.inria.fr/hal-03033764},
+type = {Research Report},
+institution = {{Inria}},
+abstract = {La Commission d'Evaluation de l'Inria a mis en place début 2020, à la demande de la Direction Générale, un groupe de travail visant à réfléchir à des indicateurs pour l'analyse qualitative de l'activité scientifique de l'Institut. Ce document est le fruit des discussions de ce groupe, enrichies par les échanges avec la Direction Générale d'Inria et avec l'ensemble de la Commision d'Evaluation. Au-delà de cette « commande », il nous a semblé important de saisir cette opportunité pour mener une réflexion collective, qui dépasse le cadre de notre Institut, sur les indicateurs, et sur ce qu'ils peuvent ou ne peuvent pas dire de nos pratiques scientifiques.},
+year = {2020},
+month = Dec,
+url_PDF = {https://hal.inria.fr/hal-03033764/file/CE_GT-Suivi.pdf}
+}
+
+@unpublished{cantelobre2020pacbayesian,
+title={A PAC-Bayesian Perspective on Structured Prediction with Implicit Loss Embeddings}, 
+author={Théophile Cantelobre and Benjamin Guedj and María Pérez-Ortiz and John Shawe-Taylor},
+year={2020},
+note = "Submitted.",
+abstract = {Many practical machine learning tasks can be framed as Structured prediction problems, where several output variables are predicted and considered interdependent. Recent theoretical advances in structured prediction have focused on obtaining fast rates convergence guarantees, especially in the Implicit Loss Embedding (ILE) framework. PAC-Bayes has gained interest recently for its capacity of producing tight risk bounds for predictor distributions. This work proposes a novel PAC-Bayes perspective on the ILE Structured prediction framework. We present two generalization bounds, on the risk and excess risk, which yield insights into the behavior of ILE predictors. Two learning algorithms are derived from these bounds. The algorithms are implemented and their behavior analyzed, with source code available at \url{https://github.com/theophilec/PAC-Bayes-ILE-Structured-Prediction}},
+url = {https://arxiv.org/abs/2012.03780},
+url_PDF = {https://arxiv.org/pdf/2012.03780.pdf},
+url_Software = {https://github.com/theophilec/PAC-Bayes-ILE-Structured-Prediction},
+eprint={2012.03780},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@unpublished{haddouche2020upper,
+title={{Upper and Lower Bounds on the Performance of Kernel PCA}}, 
+author={Maxime Haddouche and Benjamin Guedj and Omar Rivasplata and John Shawe-Taylor},
+year={2020},
+note = "Submitted.",
+abstract = {Principal Component Analysis (PCA) is a popular method for dimension reduction and has attracted an unfailing interest for decades. Recently, kernel PCA has emerged as an extension of PCA but, despite its use in practice, a sound theoretical understanding of kernel PCA is missing. In this paper, we contribute lower and upper bounds on the efficiency of kernel PCA, involving the empirical eigenvalues of the kernel Gram matrix. Two bounds are for fixed estimators, and two are for randomized estimators through the PAC-Bayes theory. We control how much information is captured by kernel PCA on average, and we dissect the bounds to highlight strengths and limitations of the kernel PCA algorithm. Therefore, we contribute to the better understanding of kernel PCA. Our bounds are briefly illustrated on a toy numerical example.},
+url = {https://arxiv.org/abs/2012.10369},
+url_PDF = {https://arxiv.org/pdf/2012.10369.pdf},
+eprint={2012.10369},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@unpublished{zantedeschi2021learning,
+title={{Learning Stochastic Majority Votes by Minimizing a PAC-Bayes Generalization Bound}},
+author={Valentina Zantedeschi and Paul Viallard and Emilie Morvant and Rémi Emonet and Amaury Habrard and Pascal Germain and Benjamin Guedj},
+year={2021},
+note = "Submitted.",
+abstract = {We investigate a stochastic counterpart of majority votes over finite ensembles of classifiers, and study its generalization properties. While our approach holds for arbitrary distributions, we instantiate it with Dirichlet distributions: this allows for a closed-form and differentiable expression for the expected risk, which then turns the generalization bound into a tractable training objective. The resulting stochastic majority vote learning algorithm achieves state-of-the-art accuracy and benefits from (non-vacuous) tight generalization bounds, in a series of numerical experiments when compared to competing algorithms which also minimize PAC-Bayes objectives -- both with uninformed (data-independent) and informed (data-dependent) priors.},
+url = {https://arxiv.org/abs/2106.12535},
+url_PDF = {https://arxiv.org/pdf/2106.12535.pdf},
+eprint={2106.12535},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
+@unpublished{biggs2021margins,
+title={{On Margins and Derandomisation in PAC-Bayes}},
+author={Felix Biggs and Benjamin Guedj},
+year={2021},
+note = "Submitted.",
+abstract = {We develop a framework for derandomising PAC-Bayesian generalisation bounds achieving a margin on training data, relating this process to the concentration-of-measure phenomenon. We apply these tools to linear prediction, single-hidden-layer neural networks with an unusual erf activation function, and deep ReLU networks, obtaining new bounds. The approach is also extended to the idea of "partial-derandomisation" where only some layers are derandomised and the others are stochastic. This allows empirical evaluation of single-hidden-layer networks on more complex datasets, and helps bridge the gap between generalisation bounds for non-stochastic deep networks and those for randomised deep networks as generally examined in PAC-Bayes.},
+url = {https://arxiv.org/abs/2107.03955},
+url_PDF = {https://arxiv.org/pdf/2107.03955.pdf},
+eprint={2107.03955},
+archivePrefix={arXiv},
+primaryClass={cs.LG}
+}
+
