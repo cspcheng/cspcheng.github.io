@@ -31,8 +31,8 @@ I am a Junior Researcher with the title of Zijiang Young Scholar in School of So
 
 - 2019--present: **Junior Researcher**, [East China Normal University](http://english.ecnu.edu.cn/), Shanghai, China
 - 2014--2019: **Ph.D & Post-Doc**, [HKUST](https://hkust.edu.hk/),  HK SAR, China. Supervisor: [Lei Chen](http://www.cse.ust.hk/~leichen)
-- 2012--2014: **MSc**, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), Xi'an, China
-- 2008--2012: **UG**, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), Xi'an, China
+- 2012--2014: **M.S.**, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), Xi'an, China
+- 2008--2012: **B.S.**, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), Xi'an, China
 
 
 
