@@ -18,19 +18,9 @@ You can find my publications on the following systems.
 You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publications.bib) which serves to generate the list below (which might take a few seconds to appear depending on your connection).
 
 
+{% include my_publications.html %}
 
 
-<div class="publication_list"></div>
-
-<script type="text/javascript">
- 
-	$(document).ready(function () {
-
-		$('.publication_list').load('https://cspcheng.github.io/my_publications.html');
-
-	});
-
-</script>
 
 {% include base_path %}
 
