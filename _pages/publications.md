@@ -21,6 +21,8 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
 
 <script src="https://bibbase.org/show?bib=https://cspcheng.github.io/files/peng-publications.bib&jsonp=1&nocache=1&theme=simple&authorFirst=1&hidemenu=true"></script> 
 
+<div class="publication_list"></div>
+
 {% include base_path %}
 
 <!-- {% capture written_year %}'None'{% endcapture %}
@@ -34,3 +36,12 @@ You can download my [own bibtex file](https://cspcheng.github.io/files/peng-publ
   {% include archive-single.html %}
 {% endfor %} -->
 
+<script type="text/javascript">
+ 
+	$(document).ready(function () {
+
+		$('.publication_list').load('publications.html');
+
+	});
+
+</script>
