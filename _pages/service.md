@@ -12,7 +12,7 @@ classes: wide
 
 [VLDB](https://vldb.org/) 2022   <br/>
 ICDE [2023](https://icde2023.ics.uci.edu/) <br/>
-[KDD](https://www.kdd.org/) 2019<br/>
+[KDD](https://www.kdd.org/) 2019, 2023<br/>
 [CIKM](http://www.cikmconference.org/) 2021, 2022<br/>
 [SDM](https://www.siam.org/conferences/archives) 2021, 2022, 2023<br/>
 [DASFAA](https://www.dasfaa.net/) 2020, 2023<br/>
