@@ -22,6 +22,7 @@ I try to publish code promptly. You are welcome to contribute to the projects an
 - [Demand-Aware Route Planning for Shared Mobility Services](https://github.com/dominatorX/DAIF): a framework to maximize the overall uitility of online ridesharing platforms using a demand-aware insertion route planning basic operator. Details in our VLDB 2020 paper: Demand-Aware Route Planning for Shared Mobility Services. 
 - [GridTuner](https://github.com/inabao/region_division_code): a out-of-box tool to tune the size of grids for spatiotemporal prediction models to maximize the utility of the applications. Details in our ICDE 2022 paper: GridTuner: Reinvestigate Grid Size Selection for Spatiotemporal Prediction Models.
 - [Efficient K-clique Listing](https://github.com/zer0y/k-clique-listing): source code of our ICDE 2022 paper: Efficient k-clique Listing with Set Intersection Speedup.
+- [Efficient Non-Learning Similar Substrajectory Search](https://github.com/inabao/trajcSimilar): source code of our VLDB 2023 paper: Efficient Non-Learning Similar Subtrajectory Search, which proposes a novel algorithm to search for the exact most-similar subtrajectory from a set of data trajectory for the given query trajectory under most widely used distance functions.
   
 See the licensing terms within each project's codebase for the requisite legal details.
 
