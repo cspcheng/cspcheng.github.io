@@ -14,6 +14,8 @@ I am interested in Spatial Databases, with a particular focus on Spatial Crowdso
 
 I try to publish code promptly. You are welcome to contribute to the projects and cooperate with me and my <a target="_blank" href="https://www.cse.ust.hk/stc">team</a>.     
 
+
+- [VSAG](https://github.com/antgroup/vsag): VSAG is a vector indexing library used for similarity search. The indexing algorithm allows users to search through various sizes of vector sets, especially those that cannot fit in memory. The library also provides methods for generating parameters based on vector dimensions and data scale, allowing developers to use it without understanding the algorithm’s principles. VSAG is written in C++ and provides a Python wrapper package called [pyvsag](https://pypi.org/project/pyvsag/). We publish a VLDB 2025 paper in industrial track to introduce the VSAG library: VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search.
 - [Latex Template](https://github.com/haidaoxiaofei/cs-latex-template) for CS papers: a simple latex template of cs papers for junior PG students. Many other useful materials are also put in the repository.
 - [gMission](http://gmission.github.io): a general spatial crowdsourcing platform.
 - [Spatial Crowdsourcing Dataset Generator](https://github.com/gmission/SCDataGenerator): a toolbox to generate the synthetic datasets for spatial crowdsourcing applications.
