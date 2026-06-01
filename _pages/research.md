@@ -7,7 +7,7 @@ classes: wide
 
 ## Topics
 
-I am interested in Spatial Databases, with a particular focus on Spatial Crowdsourcing, Ridesharing, Spatial Advertising. Recently, I also work on Graph Databases, Blockchain and Knowledge Graph.
+I am interested in Data Management in Spatial Intelligence and LLM, with a particular focus on Vector Retrieval, Spatial Perception, and Spatial Crowdsourcing.
 
 ## Code
 
