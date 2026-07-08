@@ -13,9 +13,9 @@ classes: wide
 [VLDB](https://vldb.org/) 2022 <br/>
 ICDE [2023](https://icde2023.ics.uci.edu/), [2024](https://icde2024.github.io/), [2025 (AC)](https://ieee-icde.org/2025/)<br/>
 [KDD](https://www.kdd.org/) 2019, 2023, 2024<br/>
-[CIKM](http://www.cikmconference.org/) 2021, 2022, 2023, 2024, 2025<br/>
+[CIKM](http://www.cikmconference.org/) 2021, 2022, 2023, 2024, 2025, 2026<br/>
 [SDM](https://www.siam.org/conferences/archives) 2021, 2022, 2023, 2025, 2026<br/>
-[DASFAA](https://www.dasfaa.net/) 2020, 2023, 2024, 2025<br/>
+[DASFAA](https://www.dasfaa.net/) 2020, 2023, 2024, 2025, 2026<br/>
 PAKDD [2024](http://pakdd2024.org/), 2025 <br/>
 WWW [2025](https://www2025.thewebconf.org/)<br/>
 
