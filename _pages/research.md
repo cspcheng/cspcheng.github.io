@@ -12,7 +12,7 @@ I am interested in Data Management in Spatial Intelligence and LLM, with a parti
 ## Code
 
 
-I try to publish code promptly. You are welcome to contribute to the projects and cooperate with me and my <a target="_blank" href="https://www.cse.ust.hk/stc">team</a>.     
+I try to publish code promptly. You are welcome to contribute to the projects and cooperate with us.
 
 
 - [VSAG](https://github.com/antgroup/vsag): VSAG is a vector indexing library used for similarity search. The indexing algorithm allows users to search through various sizes of vector sets, especially those that cannot fit in memory. The library also provides methods for generating parameters based on vector dimensions and data scale, allowing developers to use it without understanding the algorithm’s principles. VSAG is written in C++ and provides a Python wrapper package called [pyvsag](https://pypi.org/project/pyvsag/). We publish a VLDB 2025 paper in industrial track to introduce the VSAG library: VSAG: An Optimized Search Framework for Graph-based Approximate Nearest Neighbor Search.
